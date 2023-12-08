@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    height: 100vh;
+    position: relative;
+}
+
+#content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+#container-input{
+    margin-left: 12px;
+    margin-top: 15px;
+}
+
+#container-input > #button-sim{
+    padding: 5px 15px;
+}
+
+#container-input > #button-nao{
+    padding: 5px 15px;
+    margin-left: 5px;
+}
