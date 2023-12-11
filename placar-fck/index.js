@@ -3,7 +3,7 @@ var addFalta = document.getElementById("add-falta").addEventListener("click", ad
 
 var vermelho = {
     ponto: 0,
-    falta: 0
+    falta: 1
 }
 
 function addPonto(){
@@ -14,11 +14,11 @@ function addPonto(){
 
 function addFalta(){
     var localFalta = document.getElementById("local-falta")
-    localFalta.innerHTML = localFalta.innerHTML + `<div><h1>Falta</h1></div>`
+    localFalta.innerHTML = localFalta.innerHTML + `<div><h1>Falta ${vermelho.falta}</h1></div>`
     vermelho.falta++
 
-    if(vermelho.falta == 5){
-        localFalta.innerHTML = `<h1>Desclassificado</h1>`
+    if(vermelho.falta == 7){
+        localFalta.innerHTML = `<h1 style="color: white;">Desclassificado</h1>`
     }
 }
 
@@ -27,21 +27,21 @@ var addFalta = document.getElementById("add-falta-azul").addEventListener("click
 
 var azul = {
     ponto: 0,
-    falta: 0
+    falta: 1
 }
 
 function addPontoAzul(){
     var localPonto = document.getElementById("local-ponto-azul")
-    vermelho.ponto++
+    azul.ponto++
     localPonto.innerHTML = `<h2>${azul.ponto}</h2>`
 }
 
 function addFaltaAzul(){
     var localFalta = document.getElementById("local-falta-azul")
-    localFalta.innerHTML = localFalta.innerHTML + `<div><h1>Falta</h1></div>`
+    localFalta.innerHTML = localFalta.innerHTML + `<div><h1>Falta ${azul.falta}</h1></div>`
     azul.falta++
 
-    if(azul.falta == 5){
-        localFalta.innerHTML = `<h1>Desclassificado</h1>`
+    if(azul.falta == 7){
+        localFalta.innerHTML = `<h1 style="color: white;">Desclassificado</h1>`
     }
 }
