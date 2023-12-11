@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
 *{
     padding: 0px;
     margin: 0px;
@@ -32,17 +34,22 @@ body{
     text-align: center;
 
     font-size: 3em;
+    color: white;
+    font-family: 'Oswald', sans-serif;
 }
 
 #container-azul > h1{
     text-align: center;
 
     font-size: 3em;
+    color: white;
+    font-family: 'Oswald', sans-serif;
 }
 
 #container-ponto{
     height: 75%;
     position: relative;
+    color: white;
 }
 
 #local-ponto{
@@ -68,5 +75,29 @@ body{
 }
 
 .botao{
-    padding: 10px 25px;
+    padding: 15px 30px;
+    margin-right: 5px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+#container-botao{
+    text-align: center;
+}
+
+#local-falta{
+    display: flex;
+}
+
+#local-falta-azul{
+    display: flex;
+}
+
+#local-falta > div > h1{
+    margin-right: 6px;
+}
+
+#local-falta-azul > div > h1{
+    margin-right: 6px;
 }

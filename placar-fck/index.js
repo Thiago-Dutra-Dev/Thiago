@@ -14,14 +14,16 @@ function addPonto(){
 
 function addFalta(){
     var localFalta = document.getElementById("local-falta")
-    localFalta.innerHTML = localFalta.innerHTML + `<div><h1>Falta ${vermelho.falta}</h1></div>`
+    localFalta.innerHTML = localFalta.innerHTML + `<div><h1 style="border: 1px solid black; padding: 5px; border-radius: 100%; background-color: black">N${vermelho.falta}</h1></div>`
     vermelho.falta++
 
     if(vermelho.falta == 7){
         localFalta.innerHTML = `<h1 style="color: white;">Desclassificado</h1>`
+        vermelho.falta = ""
     }
 }
 
+//azul
 var addPonto = document.getElementById("add-ponto-azul").addEventListener("click", addPontoAzul)
 var addFalta = document.getElementById("add-falta-azul").addEventListener("click", addFaltaAzul)
 
@@ -38,10 +40,11 @@ function addPontoAzul(){
 
 function addFaltaAzul(){
     var localFalta = document.getElementById("local-falta-azul")
-    localFalta.innerHTML = localFalta.innerHTML + `<div><h1>Falta ${azul.falta}</h1></div>`
+    localFalta.innerHTML = localFalta.innerHTML + `<div><h1 style="border: 1px solid black; padding: 5px; border-radius: 100%; background-color: black">N${azul.falta}</h1></div>`
     azul.falta++
 
     if(azul.falta == 7){
         localFalta.innerHTML = `<h1 style="color: white;">Desclassificado</h1>`
+        azul.falta = ""
     }
 }
