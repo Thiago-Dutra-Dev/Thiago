@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#offcanvasNavbar{
+    border-left: 1px solid #222222;
+    background-color: #0F0F0F;
+    color: white;
+}
+
+#offcanvas-style > ul > li > a{
+    color: white;
+    padding: 5px;
+    margin-bottom: 7px;
+    transition: 0.3s;
+}
+
+#offcanvas-style > ul > li > a:hover{
+    background-color: #222222;
+}
+
+#limiter-navbar{
+    padding: 0px; 
+}
+
+#color-navbar{
+    padding: 15px;
+    background-color: #222222;
+    color: white;
+    border-bottom: #0F0F0F;
+}
+
+#botao-navbar{
+    filter: invert(100%);
+}
+
+main{
+    max-width: 2000px;
+    min-width: 320px;
+    height: 100vh;
+    margin: auto;
+
+    background-color: #0F0F0F;
+    margin-top: 71px;
+    padding: 15px;
+}
+
+#carta{
+    padding: 5px;
+    background-color: #222222;
+    color: white;
+    cursor: pointer ;
+}
