@@ -51,11 +51,42 @@
     </header>
 
     <main>
-        <section id="videos-render">
-            <div id="carta" class="card" style="width: 18rem;">
-                <img src="https://ihitthebutton.com/wp-content/uploads/2023/04/youtube-thumbnail-size-1-1024x576.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Video teste para testar renderização básica da plataforma.</p>
+        <section id="container-error">
+            <div id="error-connection">
+                <div id="msg-error">
+                    <h1><code class="code">Não foi possivel fazer acordo com o servidor</code></h1>
+                </div>
+
+                <div id="img-error">
+                    <img src="../assents/sticker/sem-aperto-de-mao.png" alt="">
+                </div>
+
+                <div id="view-more">
+                    <div id="container-view-more">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Algumas coisas para conferir</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ofcanvas">
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Confira!</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul>
+                      <li>Sua conexão com a internet</li>
+                      <li>Se não há VPN ou Proxy abertos</li>
+                      <li>Se não há AdBLock abertos</li>
+                      <li>Se todas as permisões estão ok</li>
+                  </ul>
+
+                  <div id="tudo-ok">
+                      <h2>Caso esteja tudo certo: </h2>
+                      <a class="link" href="#"><code>Suporte tecnico</code></a>
+                  </div>
                 </div>
               </div>
         </section>

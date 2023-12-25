@@ -1,6 +1,15 @@
+@font-face {
+    font-family: code;
+    src: url(../assents/fonts/PressStart2P-Regular.ttf);
+}
+
 *{
     padding: 0px;
     margin: 0px;
+}
+
+body{
+    background-color: #0F0F0F;
 }
 
 #offcanvasNavbar{
@@ -38,7 +47,6 @@
 main{
     max-width: 2000px;
     min-width: 320px;
-    height: 100vh;
     margin: auto;
 
     background-color: #0F0F0F;
@@ -51,4 +59,57 @@ main{
     background-color: #222222;
     color: white;
     cursor: pointer ;
+}
+
+#container-alert{
+    position: relative;
+    height: 100vh;
+}
+
+#alert{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 25px;
+}
+
+#container-btn-view-more{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.code{
+    color: green;
+    font-family: 'code';
+    font-size: 0.7em;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+#tudo-ok{
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: rosybrown;
+}
+
+#container-error{
+    position: relative;
+    height: 100vh;
+}
+
+#error-connection{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
