@@ -2,3 +2,7 @@
 comandos nos quais precisam se repetir*
 
 EX: As configurações de header dos arquivos HTML "nosignal" e "index", eles obedecem as mesmas folhas de estilos no header, por isso eles são puxados para o mesmo arquivo "config-header.css"
+
+//OBS PARA O ONLINE TESTE
+	Ele precisa se colocado localmente em todas as pages, apenas um copiar e coloar
+	Pois se ele n for local ocorre erro de compatibilidade.
