@@ -9,89 +9,92 @@
     <title>Play view</title>
 </head>
 <body>
-    <header>
-        <div id="container-navbar">
-            <nav id="limiter-navbar" class="navbar bg-body-tertiary fixed-top">
-                <div id="color-navbar" class="container-fluid">
-                  <a class="navbar-brand" href="#"><code style="color: white;">PLAY VIEW</code></a>
-                  <button id="botao-navbar" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
-                      <button style="background-color: white;" type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div id="offcanvas-style" class="offcanvas-body">
-                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">INICIO</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">PERFIL</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            MAIS
-                          </a>
-                          <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">HISTORICO</a></li>
-                            <li><a class="dropdown-item" href="#">RENDIMENTOS</a></li>
-                            <li>
-                              <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">TRABALHE CONOSCO</a></li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </div>
+  <header>
+<!--TODA CONFIGURAÇÃO DE HEADER COM NAVBAR-->
+      <div id="container-navbar">
+          <nav id="limiter-navbar" class="navbar bg-body-tertiary fixed-top">
+              <div id="color-navbar" class="container-fluid">
+                <a class="navbar-brand" href="#"><code style="color: white;">PLAY VIEW</code></a>
+                <button id="botao-navbar" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                    <button style="background-color: white;" type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </div>
-                </div>
-              </nav>
-        </div>
-    </header>
-
-    <main>
-        <section id="container-error">
-            <div id="error-connection">
-                <div id="msg-error">
-                    <h1><code class="code">Não foi possivel fazer acordo com o servidor</code></h1>
-                </div>
-
-                <div id="img-error">
-                    <img src="../assents/sticker/sem-aperto-de-mao.png" alt="">
-                </div>
-
-                <div id="view-more">
-                    <div id="container-view-more">
-                        <button id="btn-offcanvas" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Algumas coisas para conferir</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="ofcanvas">
-            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Confira!</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul>
-                      <li>Sua conexão com a internet</li>
-                      <li>Se não há VPN ou Proxy abertos</li>
-                      <li>Se não há AdBLock abertos</li>
-                      <li>Se todas as permisões estão ok</li>
-                  </ul>
-
-                  <div id="tudo-ok">
-                      <h2>Caso esteja tudo certo: </h2>
-                      <a class="link" href="#"><code>Suporte tecnico</code></a>
+                  <div id="offcanvas-style" class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">PERFIL</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          MAIS
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">HISTORICO</a></li>
+                          <li><a class="dropdown-item" href="#">RENDIMENTOS</a></li>
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="#">TRABALHE CONOSCO</a></li>
+                        </ul>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
-        </section>
-    </main>
+            </nav>
+      </div>
+<!--TODA CONFIGURAÇÃO DE HEADER COM NAVBAR-->
+  </header>
+
+  <main>
+    <section id="container-error">
+      <div id="error-connection">
+        <div id="msg-error">
+          <h1><code class="code">Não foi possivel fazer acordo com o servidor</code></h1>
+        </div>
+
+        <div id="img-error">
+          <img src="../assents/sticker/sem-aperto-de-mao.png" alt="">
+        </div>
+
+        <div id="view-more">
+          <div id="container-view-more">
+            <button id="btn-offcanvas" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Algumas coisas para conferir</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ofcanvas">
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Confira!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul>
+                <li>Sua conexão com a internet</li>
+                <li>Se não há VPN ou Proxy abertos</li>
+                <li>Se não há AdBLock abertos</li>
+                <li>Se todas as permisões estão ok</li>
+            </ul>
+
+            <div id="tudo-ok">
+                <h2>Caso esteja tudo certo: </h2>
+                <a class="link" href="#"><code>Suporte tecnico</code></a>
+            </div>
+          </div>
+        </div>
+    </section>
+  </main>
 </body>
 <script src="index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
