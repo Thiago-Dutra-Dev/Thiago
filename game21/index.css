@@ -1,0 +1,29 @@
+main{
+    padding: 25px;
+    display: flex;
+    max-width: 600px;
+    min-width: 320px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#space{
+    display: flex;
+    flex-grow: 1;
+}
+
+#p1{
+    background-color: red;
+    width: 500px;
+    padding: 50px;
+    border: 1px solid black;
+}
+
+#p2{
+    background-color: blue;
+    width: 500px;
+    padding: 50px;
+    border: 1px solid black;
+    border-left: none;
+}
