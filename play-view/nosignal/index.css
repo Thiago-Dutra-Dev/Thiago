@@ -8,13 +8,6 @@ main{
     padding: 15px;
 }
 
-#carta{
-    padding: 5px;
-    background-color: #222222;
-    color: white;
-    cursor: pointer ;
-}
-
 #container-alert{
     position: relative;
     height: 100vh;
@@ -75,4 +68,18 @@ main{
 
 #btn-offcanvas:hover{
     background-color: #484848;
+}
+
+#local-tentar-novamente{
+    margin-top: 35px;
+}
+
+#local-tentar-novamente > a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+#local-tentar-novamente > a:hover{
+    text-decoration: underline;
 }
