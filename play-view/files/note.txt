@@ -1,0 +1,4 @@
+*Aqui nessa pasta é para ficar apenas os arquivos repetidos.
+comandos nos quais precisam se repetir*
+
+EX: As configurações de header dos arquivos HTML "nosignal" e "index", eles obedecem as mesmas folhas de estilos no header, por isso eles são puxados para o mesmo arquivo "config-header.css"
