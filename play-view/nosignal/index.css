@@ -8,6 +8,13 @@ main{
     padding: 15px;
 }
 
+#carta{
+    padding: 5px;
+    background-color: #222222;
+    color: white;
+    cursor: pointer ;
+}
+
 #container-alert{
     position: relative;
     height: 100vh;

@@ -1,0 +1,43 @@
+#general-container{
+    background-color: #0F0F0F;
+}
+
+main{
+    max-width: 2000px;
+    min-width: 320px;
+    margin: auto;
+    height: 100vh;
+
+    background-color: #0F0F0F;
+    padding-top: 90px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+#titulo{
+    font-size: 2.3em;
+}
+
+#desc{
+    max-width: 100ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#alert{
+    text-decoration: none;
+}
+
+.card{
+    cursor: pointer;
+    margin: 10px;
+}
+
+#container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
