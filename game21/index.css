@@ -1,3 +1,7 @@
+body{
+    background-image: linear-gradient(to left, blue, rgb(124, 50, 50) , red);
+}
+
 main{
     padding: 25px;
     display: flex;
@@ -26,4 +30,18 @@ main{
     padding: 50px;
     border: 1px solid black;
     border-left: none;
+}
+
+#rules{
+    max-width: 555px;
+    min-width: 320px;
+    margin: auto;
+}
+
+#menu{
+    padding: 8px;
+}
+
+table, tr, td, th{
+    border: 1px solid black;
 }
