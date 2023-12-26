@@ -43,3 +43,13 @@ body{
 #botao-navbar{
     filter: invert(100%);
 }
+
+#container-pesquisa{
+    background-color: #222222;
+    padding: 0px;
+}
+
+#color-navbar{
+    display: flex;
+    align-items: center;
+}

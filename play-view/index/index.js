@@ -1,5 +1,5 @@
 if (navigator.onLine) {
-    location.href = "../index/index.html"
+    console.log("Status Online")
   } else {
     location.href = "../nosignal/index.html"
   }
