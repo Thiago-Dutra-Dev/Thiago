@@ -1,3 +1,10 @@
+/*MEDIDOR PARA SUMIR O PESQUISAR ANTES QUE QUEBRE*/
+@media (max-width: 550px) {
+    #pesquisa{
+        display: none;
+    }
+  }
+
 #general-container{
     background-color: #0F0F0F;
 }
@@ -52,9 +59,22 @@ main{
     align-items: center;
 }
 
-/*MEDIDOR PARA SUMIR O PESQUISAR ANTES QUE QUEBRE*/
-@media (max-width: 550px) {
-    #pesquisa{
-        display: none;
-    }
-  }
+#subheader{
+    padding-top: 85px;
+    display: flex;
+    align-items: center;
+    max-width: 2000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+#icon-perfil{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-image: url(https://cdn.icon-icons.com/icons2/2985/PNG/512/profile_female_user_woman_icon_187166.png);
+    background-color: aqua;
+    background-size: cover;
+    float: right;
+    margin-left: 15px;
+}
