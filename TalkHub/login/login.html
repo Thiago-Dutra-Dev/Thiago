@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/google.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/twitter.css' rel='stylesheet'>
+    <title>TalkHub login</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+              <div id="btn"></div>
+              <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+              <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+
+            <div class="social-icons">
+              <i class="gg-facebook img"></i>
+              <i class="gg-twitter img"></i>
+              <i class="gg-google img"></i>
+            </div>
+
+            <form id="login" class="input-grp">
+              <input type="text" class="input-field" placeholder="User Id" required>
+              <input type="password" class="input-field" placeholder="Enter Password" required>
+              <input type="checkbox" class="check-box"><span>Remeber Password</span>
+              <button type="submit" class="submit-btn">Log In</button>
+            </form>
+            
+            <form id="register" class="input-grp">
+              <input type="text" class="input-field" placeholder="User Id" required>
+              <input type="email" class="input-field" placeholder="User EmailId" required>
+              <input type="password" class="input-field" placeholder="Enter Password" required>
+              <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+              <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="login.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
