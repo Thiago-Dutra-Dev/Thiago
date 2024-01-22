@@ -1,0 +1,16 @@
+{
+  "name": "true-perception-flap-avoj5",
+  "productName": "true-perception-flap-avoj5",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "diana",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "27.1.3"
+  }
+}
